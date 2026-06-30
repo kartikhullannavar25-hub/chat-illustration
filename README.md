@@ -22,8 +22,8 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/kartikhullannavar25-hub/chat-illustration.git
+- Live Site URL: https://kartikhullannavar25-hub.github.io/chat-illustration/
 
 ## My process
 
@@ -55,13 +55,12 @@ To see how you can add code snippets, see below:
 
 ### Continued development
 
-- further i would like to learn how to apply JAVASCRIPT and make it responsible to animate and else
+- Further i would like to learn how to apply JAVASCRIPT and make it responsible to animate and else
 
 
 
 ## Author
 
-- Website - [Kartik Kumar](https://www.your-site.com)
 - Frontend Mentor - [@kartikhullannavar25-hub](https://www.frontendmentor.io/profile/kartikhullannavar25-hub)
 
 
