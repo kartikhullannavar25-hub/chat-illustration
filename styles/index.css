@@ -1,0 +1,186 @@
+body{
+    font-family: Rubik, sans-serif;
+    background-color: white;
+    margin: 0;
+}
+
+.background-design{
+    background: linear-gradient(to top, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    width: 500px;
+    height: 1200px;
+    border-radius: 300px;
+    position: absolute;
+    top: -400px;
+    left: -80px;
+    z-index: 0;
+}
+
+
+
+
+
+/* ### CONTACT INFO SECTION  */
+
+.phone-section{
+    background-color: rgb(238, 238, 238);
+    width: 300px;
+    height: 600px;
+    display: block;
+    border-radius: 40px;
+    overflow: hidden;
+    border: 12px solid rgb(255, 255, 255);
+    margin: auto;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    z-index: 10;
+    position: absolute;
+    top: 120px;
+    left: 300px;
+}
+.contact-info{
+    background: linear-gradient(to top, hsl(264, 100%, 61%),
+    hsl(293, 100%, 63%));
+    display: grid;
+    grid-template-columns: 20px 45px 1fr 24px;
+    align-items: center;
+    column-gap: 10px;
+    padding: 30px 15px 15px 15px;
+    border-radius: 10px;
+    position: relative;
+}
+.contact-image{
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+    border-radius: 23px;
+    margin: 0;
+    cursor: pointer;
+}
+.contact-name{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+.availabelity{
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 0;
+}
+.dynamic-island{
+    background-color: white;
+    /* width: 170px; */
+    height: 50px;
+    border-radius: 15px;
+    position: absolute;
+    top: -25px;
+    right: 80px;
+    left: 80px;
+}
+
+
+
+/* ### CHAT SECTION  */
+
+
+.chat-section{
+    padding: 0 12px;
+}
+.other-text{
+    font-size: 11px;
+    color: hsl(276, 55%, 52%);
+    background-color: rgba(203, 203, 203, 0.354);
+    border-radius: 13px;
+    padding: 7px 15px;
+    width: 150px;
+    margin-right: auto;
+    margin-top: 13px;
+}
+.my-text img{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+}
+.my-text{
+    font-size: 11px;
+    width: 150px;
+    color: hsla(268, 7%, 64%, 0.94);
+    background-color: white;
+    border-radius: 13px;
+    padding: 7px 15px;
+    margin-left: auto;
+    margin-top: 13px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+.my-text img{
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.option{
+    color: white;
+    background: linear-gradient(to right, hsl(264, 100%, 61%),
+    hsl(293, 100%, 63%));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 10px;
+    width: 170px;
+}
+.option-text{
+    font-size: 11px;
+    margin: 0 auto 0 0;
+}
+.option-worth{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+}
+
+
+/* ###SEARCHBAR  */
+.type-section{
+    padding: 10px 15px;
+    position: relative;
+    margin-top: 5px;
+}
+.type-section input{
+    font-size: 11px;
+    width: 240px;
+    padding: 15px 15px;
+    border-radius: 20px;
+    border: none;
+}
+.type-section input::placeholder{
+    color: hsl(206, 6%, 79%);
+}
+.type-section img{
+    background-color: hsl(271, 36%, 24%);
+    border-radius: 20px;
+    padding: 5px;
+    position: absolute;
+    right: 20px;
+    top: 13px;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+
+
+.description-container{
+    z-index: 100;
+    width: 500px;
+    line-height: 28px;
+    position: absolute;
+    right: 200px;
+    top: 300px;
+}
+
+.description-headeline{
+    font-size: 40px;
+    color: hsl(271, 36%, 24%);
+    font-weight: 500;
+}
+.description{
+    font-size: 20px;
+    color: hsl(270, 7%, 64%);
+}
